@@ -1,7 +1,14 @@
 group 'org.amossoma.jackson'
 version '0.1-SNAPSHOT'
 
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
 apply plugin: 'java'
+apply plugin: 'application'
 apply plugin: 'groovy'
 
 sourceCompatibility = 1.8
